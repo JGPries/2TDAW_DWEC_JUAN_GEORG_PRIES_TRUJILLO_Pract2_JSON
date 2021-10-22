@@ -1,0 +1,133 @@
+/* Estilo del fondo de la web */
+html{
+    background-image: url(https://www.realskateboards.com/img/2021/real-fall21-jawbreaker-7.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/* gal=galeria */
+
+.gal{
+    background-color:#6b6b6b9c;
+    width:50%;
+    margin-left: 25%;
+    text-align: center;
+    border:3px solid #000000;
+    border-radius: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 5%;
+}
+
+.gal img {
+  border: 3px solid #ffffff94;
+  border-radius: 4px;
+  padding: 5px;
+  width: 25%;
+  margin-top: 10px;
+}
+
+.gal img:hover {
+  box-shadow: 0 0 4px 4px #be000080;
+}
+.gal h1 {
+  color: #fcfcfc;
+  font-weight: normal;
+  font-size: 2em;
+  font-family: Arial;
+  text-transform: uppercase;
+  background-color:#3d3d3d;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  width: 75%;
+  text-align: center;
+  margin-left:12.5%;
+}
+
+.gal h1:hover {
+  box-shadow: 0 0 4px 4px #be000080;
+}
+
+.gal h2 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 1.5em;
+  font-family: Arial;
+  text-transform: uppercase;
+  background-color:#ed6464;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  width: 75%;
+  margin-left:12.5%;
+}
+
+.gal h2:hover {
+  box-shadow: 0 0 4px 4px #be000080;
+}
+
+.gal p{  
+  color: #ffffff; 
+  font-size: 22px; 
+  line-height: 26px; 
+  margin: 0;
+  width: 75%;
+  margin-left:12.5%;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  margin-bottom: 2px; 
+  margin-top: 4px;
+}
+
+.gal p:hover {
+  box-shadow: 0 0 4px 4px rgba(190, 0, 0, 0.5);
+}
+
+/* estilo para el formulario y sus componentes */
+
+.formulario{
+  font-size: 32px;
+  margin-left: 10%;
+  background-color:#b6b6b6b0;
+  width:80%;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  color: #ffffff;
+  
+}
+
+.formulario input{
+
+  font-size: 20px;
+
+}
+
+.formulario textarea{
+
+  margin-top: 10px;
+  width: 400px;
+  font-size: 18px;
+  
+}
+
+.formulario textarea:hover{
+  box-shadow: 0 0 4px 4px #be000080;
+}
+
+.gal form:hover {
+  box-shadow: 0 0 4px 4px #be000080;
+}
+
+.formulario input:hover {
+  box-shadow: 0 0 4px 4px #be000080;
+}
+
+/* estilo para la leyenda */
+
+.lege{
+  margin-top: 10px;
+  font-size: 32px;
+  color: #ffffff;
+}
